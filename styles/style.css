@@ -80,7 +80,7 @@
      height: 100px;
      display: inline-block;
      margin: 3px;
-     background-image: url(img/title.png);
+     background-image: url(../img/title.png);
      background-size: contain;
      border: 4px solid #fc0500;
      cursor: default;
