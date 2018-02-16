@@ -56,11 +56,9 @@
 		if(!$(e.target).hasClass('card')) {
 			return;
 		}
-
 		if(lock) {
 			return;
 		}
-        
 		lock = true;
 		$el = $(e.target);
 		var opacityValue = $el.css('opacity');
