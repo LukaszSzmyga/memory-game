@@ -103,7 +103,6 @@
 		if(pairsLeft == 0) {
 			win();
 		}
-
 		lock = false;
 	}
 
