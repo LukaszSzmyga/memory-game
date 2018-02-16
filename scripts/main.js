@@ -47,7 +47,7 @@
 	}
 
 	function catchBoard() {
-		$('#board').on('click', function(e) { 
+		$('#board').on('click', function(e) {
             revealCard(e); 
         });
 	}
