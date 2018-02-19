@@ -22,7 +22,6 @@
 		for(i = 0; i < 20; i++)	{
 			startHTML += '<div class="card" id="t'+i+'"></div>';
 		}
-
 		startHTML+='<div class="score">Move counter: 0</div>';
 		$('#board').html(startHTML);
 	}
@@ -47,8 +46,8 @@
 	}
 
 	function catchBoard() {
-		$('#board').on('click', function() {
-            revealCard(e);
+		$('#board').on('click', function(e) { 
+            revealCard(e); 
         });
 	}
 
@@ -103,6 +102,7 @@
 		if(pairsLeft == 0) {
 			win();
 		}
+
 		lock = false;
 	}
 
